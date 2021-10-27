@@ -180,7 +180,7 @@ margin: 7% 3% 3%;
         position: static;
         padding-top: 15%;
         transform:rotate(0);
-        width: min-content;
+        width: 50px;
         height: min-content;
     }
 }
