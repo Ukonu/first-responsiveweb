@@ -1,0 +1,186 @@
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+
+}
+
+#title{
+    background-color: rgb(6, 172, 172);
+    color: #ffff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h2{
+    font-family:"Montserrat-Bold";
+    font-size: 2.5rem;
+    line-height: 1.5;
+
+}
+h3{
+    font-family:"Montserrat-Bold";
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 5%;
+}
+
+p{
+    color: grey;
+}
+
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family: "Montserrat-Light"
+
+}
+
+/* Download buttons  */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image  */
+.title-img{
+    width:60%;
+    margin: 0 0 0 10px;
+    transform: rotate(25deg);
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    right: 23%;
+}
+
+/* Features  */
+#features{
+    background-color: white;
+    padding: 7% 12%;
+    text-align: center;
+    position: relative;
+   z-index: 1;
+    
+}
+
+.feat{
+   text-align: center;
+   padding: 5%;
+    
+}
+
+.icon{
+    color: rgb(245, 35, 35);
+    margin-bottom: 1rem;
+    
+}
+.icon:hover{
+    color:rgb(6, 172, 172)
+}
+
+/* Testimonials Section*/
+
+#testimonials{
+    color: #ffff;
+    text-align:center;
+    background-color:rgb(6, 172, 172);
+}
+
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 12%;
+
+}
+
+
+#press{
+    background-color: rgb(6, 172, 172);
+    text-align: center;
+    padding-bottom: 5%;
+}
+    
+.press-log{
+    width: 10%;
+    margin: 10px 10px 50px;
+} 
+
+/* pricing session  */
+
+#pricing{
+    padding: 100px;
+    margin: 50px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+
+#cta{
+    background-color:  rgb(6, 172, 172);
+    text-align: center;
+    padding: 5% 25%;
+}
+.call{
+    color: white;
+    font-family:"Montserrat-Black";
+    font-size: 3.0rem;
+    padding: auto;
+    font-weight: bold;
+    line-height: 1.6;
+   
+}
+
+.callbtn{
+    margin: 0% 1%;
+}
+
+/* footer section  */
+
+#footer{
+text-align: center;
+margin: 7% 3% 3%;
+}
+
+.footbtn{
+    margin: 0% 0.5%;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 1028px) {
+    .title-img{
+        position: static;
+        padding-top: 15%;
+        transform:rotate(0);
+        width: fit-content;
+        height: fit-content;
+    }
+}
